@@ -68,7 +68,7 @@ public:
             }
 
             local[s[end]] = end;
-            ret = std::max(ret, end - start + 1);
+            ret = std::max(ret, end - start);
         }
 
 
@@ -81,7 +81,7 @@ int main(void)
 {
     Solution solu = Solution();
 
-    std::cout <<solu.lengthOfLongestSubstring("ac") <<std::endl;
+    std::cout <<solu.lengthOfLongestSubstring("aa") <<std::endl;
 
     return EXIT_SUCCESS;
 }
