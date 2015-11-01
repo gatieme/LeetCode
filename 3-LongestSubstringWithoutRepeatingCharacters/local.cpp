@@ -45,7 +45,7 @@ public:
     {
         memset(local, -1, sizeof(local));     //  全部置为1
 
-        int start = 0, end = 0;
+        int start = -1, end = 0;
         int ret = 0;
 
         //  ==贪心算法==
@@ -64,7 +64,7 @@ public:
         {
             if(local[s[end]] > start)
             {
-                start = local[end];
+                start = local[s[end]];
             }
 
             local[s[end]] = end;
