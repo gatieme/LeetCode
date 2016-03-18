@@ -3,7 +3,6 @@
 
 #include <iostream>
 #include <string>
-// http://www.cnblogs.com/bitzhuwei/p/Longest-Palindromic-Substring-Par-I.html
 #include <cstdio>
 #include <cstdlib>
 
@@ -23,7 +22,7 @@
 
 */
 class Solution
-{    
+{
 public:
     std::string longestPalindrome(std::string s)
     {
@@ -33,7 +32,7 @@ public:
    		std::string subs, maxsubs;
    		int length, maxlength = 0;
    		int maxlen = 0;
-   		 
+
 	   	for(int start = 0; start < s.size(); start++)
    		{
    			for(int length = 1; length <= s.size() - start; length++)
@@ -48,7 +47,7 @@ public:
 				}
 			}
 		}
-		
+
 		return maxsubs;
     }
 
@@ -56,8 +55,8 @@ public:
 	{
 		int start = 0;
 		int end = s.length() - 1;
-		
-		while(start < end 
+
+		while(start < end
 		   && s[start] == s[end])
 		{
 			start++;
@@ -72,11 +71,11 @@ public:
 int main(void)
 {
 	Solution solu;
-	
+
 	//std::cout <<solu.isPalindromicSubstring("abcddcba") <<std::endl;
-	std::cout <<solu.longestPalindrome("jhgtrclvzumufurdemsogfkpzcwgyepdwucnxrsubrxadnenhvjyglxnhowncsubvdtftccomjufwhjupcuuvelblcdnuchuppqpcujernplvmombpdttfjowcujvxknzbwmdedjydxvwykbbamfnsyzcozlixdgoliddoejurusnrcdbqkfdxsoxxzlhgyiprujvvwgqlzredkwahexewlnvqcwfyahjpeiucnhsdhnxtgizgpqphunlgikogmsffexaeftzhblpdxrxgsmeascmqngmwbotycbjmwrngemxpfakrwcdndanouyhnnrygvntrhcuxgvpgjafijlrewfhqrguwhdepwlxvrakyqgstoyruyzohlvvdhvqmzdsnbtlwctetwyrhhktkhhobsojiyuydknvtxmjewvssegrtmshxuvzcbrabntjqulxkjazrsgbpqnrsxqflvbvzywzetrmoydodrrhnhdzlajzvnkrcylkfmsdode") <<std::endl;
-	
-	
+	std::cout <<solu.longestPalindrome("gatiemeabcdeedcbagatieme") <<std::endl;
+
+
 	return EXIT_SUCCESS;
 }
 #endif
