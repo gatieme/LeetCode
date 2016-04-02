@@ -5,9 +5,11 @@ LeetCode
 
 #反转一个数
 -------
+
 Reverse digits of an integer.
 
-Example1: x = 123, return 321 
+Example1: x = 123, return 321
+
 Example2: x = -123, return -321
 
 #分析
@@ -39,7 +41,7 @@ while (x)
 INT_MAX宏（定义C库头文件在limits.h）
 如果溢出返回0
 ```c
-res > INT_MAX ? 0 : res;                                        
+res > INT_MAX ? 0 : res;
 ```
 #负数的问题
 -------
@@ -50,7 +52,7 @@ res > INT_MAX ? 0 : res;
 *	返回时，注意正负的问题
 
 ```c
-fabs(res) > INT_MAX ? 0 : res;          
+fabs(res) > INT_MAX ? 0 : res;
 ```
 
 
