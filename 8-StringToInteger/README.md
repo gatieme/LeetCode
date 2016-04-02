@@ -3,7 +3,7 @@
 
 Leetcode题目:https://leetcode.com/problems/string-to-integer-atoi/
 
-Github题解 : https://github.com/gatieme/LeetCode/tree/master/8-StringToInteger
+Github题解 : https://github.com/gatieme/LeetCode
 
 CSDN解题：http://blog.csdn.net/gatieme/article/details/51046065
 
