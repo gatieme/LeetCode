@@ -30,7 +30,7 @@ while (x)
 
 如果给出了一个超过int表示范围的数，比如1534236469，会发生什么
 
-这里写图片描述
+![overflow问题](./overflow.png)
 
 这个怎么处理呢，
 
@@ -54,6 +54,8 @@ res > INT_MAX ? 0 : res;
 ```c
 fabs(res) > INT_MAX ? 0 : res;
 ```
+
+![overflow问题](./negative.png)
 
 
 #链接
