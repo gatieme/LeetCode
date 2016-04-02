@@ -82,3 +82,13 @@ if(value > INT_MAX)
 ```
 
 如果最后再判断可能出现的问题，因为不管我们value用什么保存，long,long long，他们都有表示范围，都存在溢出，字符串过长时都会溢出，溢出后可能会发生截断，或者甚至读取成一个负数，那么我们循环结束后再判断就不可行。
+
+
+#链接
+-------
+
+Leetcode题目:https://leetcode.com/problems/string-to-integer-atoi/
+
+Github题解 : https://github.com/gatieme/LeetCode/tree/master/8-StringToInteger
+
+CSDN解题：http://blog.csdn.net/gatieme/article/details/51046065
