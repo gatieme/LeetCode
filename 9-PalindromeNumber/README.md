@@ -35,7 +35,7 @@ bool isPalindrome(int x)
 
 #Python代码
 -------
-```
+```py
 class Solution(object):
     def isPalindrome(self, x):
         """
