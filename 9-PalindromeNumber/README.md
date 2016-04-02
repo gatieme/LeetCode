@@ -12,7 +12,7 @@ CSDN题解：http://blog.csdn.net/gatieme/article/details/51046193
 
 直接将该整数反序，反序后看是不是等于其本身即可
 
-#代码
+#C代码
 -------
 ```c
 bool isPalindrome(int x)
@@ -29,5 +29,19 @@ bool isPalindrome(int x)
 
     return new_xx == (long long)x;
 }
+
+```
+
+
+#Python代码
+-------
+```
+class Solution(object):
+    def isPalindrome(self, x):
+        """
+        :type x: int
+        :rtype: bool
+        """
+        return str(x) == str(x)[::-1]
 
 ```
