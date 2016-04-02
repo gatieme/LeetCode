@@ -58,7 +58,9 @@ fabs(res) > INT_MAX ? 0 : res;
 -------
 
 题目：https://leetcode.com/problems/Reverse-Integer/
+
 代码(github)：https://github.com/gatieme/LeetCode
+
 题解 : http://blog.csdn.net/gatieme/article/details/51045626
 
 
