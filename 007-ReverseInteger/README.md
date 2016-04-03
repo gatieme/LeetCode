@@ -1,6 +1,15 @@
 LeetCode
 =======
+#链接
+-------
 
+>7.Reverse_Integer (Easy)
+>
+>题目：https://leetcode.com/problems/Reverse-Integer/
+>
+>代码(github)：https://github.com/gatieme/LeetCode/tree/master/007-ReverseInteger
+>
+>CSDN题解；http://blog.csdn.net/gatieme/article/details/51045626
 007.Reverse_Integer (Easy)
 
 #反转一个数
