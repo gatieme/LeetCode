@@ -3,7 +3,7 @@
 
 >LeetCode题目：https://leetcode.com/problemset/algorithms/
 >
->GitHub代码：https://github.com/gatieme/LeetCode
+>GitHub代码：https://leetcode.com/problems/container-with-most-water/
 >
 >CSDN题解：http://blog.csdn.net/gatieme/article/details/51050223
 #题意
