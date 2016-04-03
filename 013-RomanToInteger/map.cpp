@@ -30,3 +30,4 @@ public:
         sum += roman_map[s[s.length()-1]];
         return sum;
     }
+};
