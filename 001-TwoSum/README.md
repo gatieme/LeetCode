@@ -20,8 +20,10 @@ CSDN题解：http://blog.csdn.net/gatieme/article/details/50596965
 #暴力解法O(n^2)
 -------
 首先是最暴力的方法，使用双层循环，对于数组nums中的每一个数据nums[left]判断后面是否有某个数nums[right],使得
+
 >nums[left] + nums[right] ==target
 >即 num[right] = target - nums[left]
+
 ```c
 /**
  *
@@ -69,7 +71,10 @@ int main(void)
 }
 #endif
 ```
+
 #进阶解法--基于排序O（nlogn）
+-------
+
 ```cpp
 #include <stdio.h>
 #include <stdlib.h>
@@ -276,8 +281,11 @@ int main(void)
 }
 #endif
 ```
+
+
 #优化解法
 -------
+
 前面我们的算法是
 
 对于数组nums中的每一个数据nums[left]判断后面是否有某个数nums[right],使得
@@ -290,8 +298,10 @@ int main(void)
 
 我们在处理的时候，不仅需要知道当前数据，还需要知道数据的位置，而又需要提高查找的效率，因此可以使用map映射或者哈希表
 >对一个字符串算出hash码后，这个hash码相当于一个指针，就可以直接指向其存储位置，从而是O(1)的时间复杂度。
+
 ##cpp
 -------
+
 ```cpp
 #include <iostream>
 #include <vector>
@@ -352,9 +362,13 @@ int main(void)
 }
 #endif
 ```
+
+
 ##python
 -------
+
 python中的字典有和map一样的功能
+
 ```
 #!/usr/bin/env python
 #coding=utf-8
