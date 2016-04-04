@@ -37,7 +37,7 @@ Given an array S of n integers, find three integers in S such that the sum is cl
 #代码
 -------
 
-```c
+```cpp
 #include <iostream>
 #include <vector>
 #include <cmath>
