@@ -2,7 +2,7 @@
 -------
 LeetCode题目：https://leetcode.com/problems/regular-expression-matching/
 
-GitHub代码：https://github.com/gatieme/LeetCode/tree/master/10-RegularExpressionMatching
+GitHub代码：https://github.com/gatieme/LeetCode
 
 CSDN题解：http://blog.csdn.net/gatieme/article/details/51049244
 
