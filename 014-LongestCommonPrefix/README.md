@@ -18,7 +18,7 @@ Write a function to find the longest common prefix string amongst an array of st
 找出所有字符串的最长公共前缀。这道题很简单，但需要注意减少比较字符的操作次数。
 
 
-#解法一
+#解法
 -------
 
 思路：设置一个位数记录器num，遍历所有字符串的第num位。如果都相同，则num++。
@@ -32,14 +32,6 @@ Write a function to find the longest common prefix string amongst an array of st
 
 
 ```cpp
-#include <iostream>
-#include <string>
-#include <vector>
-
-using namespace std;
-
-#define __tmain main
-
 class Solution {
 public:
     string longestCommonPrefix(vector<string>& strs)
@@ -76,14 +68,4 @@ public:
         return result;
     }
 };
-int __tmain( )
-{
-    string str[2] = {"a", "b"};
-    vector<string> strs(str, str + 2);
-
-    Solution solu;
-    cout <<solu.longestCommonPrefix(strs) <<std::endl;
-
-    return EXIT_SUCCESS;
-}
 ```
