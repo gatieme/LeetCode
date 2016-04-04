@@ -32,7 +32,8 @@ Write a function to find the longest common prefix string amongst an array of st
 
 
 ```cpp
-class Solution {
+class Solution
+{
 public:
     string longestCommonPrefix(vector<string>& strs)
     {

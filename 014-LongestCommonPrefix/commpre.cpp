@@ -6,7 +6,8 @@ using namespace std;
 
 #define __tmain main
 
-class Solution {
+class Solution
+{
 public:
     string longestCommonPrefix(vector<string>& strs)
     {
