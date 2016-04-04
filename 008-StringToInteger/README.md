@@ -1,6 +1,7 @@
 #链接
 -------
 
+
 Leetcode题目:https://leetcode.com/problems/string-to-integer-atoi/
 
 Github题解 : https://github.com/gatieme/LeetCode
@@ -9,6 +10,7 @@ CSDN解题：http://blog.csdn.net/gatieme/article/details/51046065
 
 #题目
 -------
+
 Implement atoi to convert a string to an integer.
 
 Hint: Carefully consider all possible input cases. If you want a challenge, please do not see below and ask yourself what are the possible input cases.
@@ -23,6 +25,8 @@ The signature of the C++ function had been updated. If you still see your functi
 
 #分析
 -------
+
+
 简单问题，如下代码即是主要框架
 ```
 for (; *str != '\0'; str++)
