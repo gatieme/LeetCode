@@ -3,7 +3,7 @@
 
 >LeetCode题目：https://leetcode.com/problems/valid-parentheses/
 >
->GitHub代码：https://github.com/gatieme/LeetCode/tree/master/019-RemoveNthNodeFromEndOfList
+>GitHub代码：https://github.com/gatieme/LeetCode
 >
 >CSDN题解：http://blog.csdn.net/gatieme/article/details/51090593
 
