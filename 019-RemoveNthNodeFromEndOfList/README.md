@@ -102,7 +102,7 @@ public:
             first = first->next;
         }
 
-        if(first == NULL && i < n)      //  结点长度不对
+        if(first == NULL && i < n)      //  结点长度不够
         {
             return head;
         }
