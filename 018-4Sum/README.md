@@ -46,7 +46,7 @@ The solution set must not contain duplicate quadruplets.
 
 3.    遍历剩余数组确定两外两个（c，d），确定cd时思路跟3Sum确定后两个数据一样，二分查找左右逼近。
 
-```c
+```cpp
 #include <iostream>
 #include <vector>
 
@@ -183,7 +183,7 @@ int __tmain()
 
 我们是通过跳过相同的值的方法来去重复的
 
-```c
+```cpp
             //skip same i
             while(i > 0 && i < size - 3 && nums[i] == nums[i - 1])
             {
@@ -196,7 +196,7 @@ int __tmain()
 
 >参见 [[LeetCode]18.4Sum](https://yq.aliyun.com/articles/3883)
 
-```c
+```cpp
 #include <iostream>
 #include <stdio.h>
 #include <vector>
@@ -288,7 +288,7 @@ int main() {
 其实求解4Sum问题可以分解为求3Sum问题，对数列依次遍历i，我们只需得到在第i个数后面，找出所有和为（target?nums[i]）的三元组，同理求3Sum又可以退化为2Sum，进而退化为1Sum。 
 因此，采用递归的思想解决KSum问题。
 
-```c
+```cpp
 #include <iostream>
 #include <cstdlib>
 #include <vector>
