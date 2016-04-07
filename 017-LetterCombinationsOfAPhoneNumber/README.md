@@ -3,9 +3,9 @@
 
 >LeetCode题目：https://leetcode.com/problems/letter-combinations-of-a-phone-number/
 >
->GitHub代码：https://github.com/gatieme/LeetCode/tree/master/017-LetterCombinationsOfAPhoneNumber
+>GitHub代码：https://github.com/gatieme/LeetCode
 >
->CSDN题解：http://blog.csdn.net/gatieme/article/details/51057063
+>CSDN题解：http://blog.csdn.net/gatieme/article/details/51087208
 
 
 #题意
